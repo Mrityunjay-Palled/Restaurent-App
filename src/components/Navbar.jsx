@@ -13,7 +13,7 @@ const Navbar = () => {
           RED LOBSTER
         </p>
       </div>
-      <div className="flex items-center w-[60%]">
+      <div className="flex items-center w-[40%]">
         <div className="flex w-full justify-around text-red-500 font-merienda font-bold">
           <p>MENU</p>
           <p>SPECIALS</p>
