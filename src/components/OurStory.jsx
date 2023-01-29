@@ -2,14 +2,14 @@ import React from "react";
 
 const OurStory = () => {
   return (
-    <div className="bg-gradient-to-r from-[#041120] to-[#035e85] h-[20rem] flex flex-col justify-between">
+    <div className="bg-gradient-to-r from-[#041120] to-[#035e85] h-fit flex flex-col justify-between">
       <p
-        className="text-white font-merienda text-4xl font-extrabold mt-[30px]"
+        className="text-white text-4xl font-extrabold mt-[30px]"
         align="center"
       >
         OUR STORY
       </p>
-      <div className="h-[80%] text-3xl font-merienda text-white">
+      <div className="h-[80%] text-3xl text-white">
         <div className="p-8">
           <p align="center">
             Everything we do is a celebration of seafood-from how we source our
