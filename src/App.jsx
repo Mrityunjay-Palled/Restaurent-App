@@ -1,12 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import OurStory from "./components/OurStory";
+import Home from "./components/Home";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <OurStory />
+     <Home/>
     </>
   );
 };
