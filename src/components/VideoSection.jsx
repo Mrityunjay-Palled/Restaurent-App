@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 
 const VideoSection = () => {
   return (
-    <>
+    <div>
       <Marquee speed="40">
         <p className="py-4 sm:py-6 text-xs sm:text-2xl font-bold font-merienda text-red-600">
           Traceable, sustainable and responsible applies to so much more than
@@ -52,7 +52,7 @@ const VideoSection = () => {
           </p>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

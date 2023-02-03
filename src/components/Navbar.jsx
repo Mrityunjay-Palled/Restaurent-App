@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import LobsterIcon from "../assets/Lobster-Logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   const [toggleDrawer, setToggleDrawer] = useState(false);
   const [closeMenu, setCloseMenu] = useState(false);
@@ -51,34 +52,55 @@ const Navbar = () => {
               !toggleDrawer ? "-translate-x-[415px]" : "translate-x-0"
             }`}
           >
-            <p className="mx-[40px] sm:mx-[0px] hover:animate-bounce cursor-pointer">
-              MENU 
+             <p
+              className="mx-[40px] sm:mx-[0px] cursor-pointer"
+              onClick={handleToggle}
+            >
+              <Link to="/">HOME</Link>
             </p>
-            <p className="mx-[40px] sm:mx-[0px] hover:animate-bounce cursor-pointer">
-              SPECIALS
+            <p
+              className="mx-[40px] sm:mx-[0px] cursor-pointer"
+              onClick={handleToggle}
+            >
+              <Link to="/menu">MENU </Link>
             </p>
-            <p className="mx-[40px] sm:mx-[0px] hover:animate-bounce cursor-pointer">
-              AWARDS
+            <p
+              className="mx-[40px] sm:mx-[0px] cursor-pointer"
+              onClick={handleToggle}
+            >
+              <Link to="/specials">SPECIALS</Link>
             </p>
-            <p className="mx-[40px] sm:mx-[0px] hover:animate-bounce cursor-pointer">
-              OUR STORY
+            <p
+              className="mx-[40px] sm:mx-[0px] cursor-pointer"
+              onClick={handleToggle}
+            >
+              <Link to="/awards">AWARDS</Link>
+            </p>
+            <p
+              className="mx-[40px] sm:mx-[0px] cursor-pointer"
+              onClick={handleToggle}
+            >
+              <Link to="/story">OUR STORY</Link>
             </p>
           </div>
         ) : (
           <div
             className={`sm:flex w-full justify-around text-red-600 font-merienda font-bold flex-wrap mt-[0px] h-[50vh] sm:h-[0px] sm:mt-[0px] leading-[80px] sm:leading-[0px] bg-white z-0 relative sm:opacity-100`}
           >
-            <p className="mx-[40px] sm:mx-[0px] hover:animate-bounce cursor-pointer">
-              MENU
+            <p className="mx-[40px] sm:mx-[0px] cursor-pointer">
+              <Link to="/">HOME</Link>
             </p>
-            <p className="mx-[40px] sm:mx-[0px] hover:animate-bounce cursor-pointer">
-              SPECIALS
+            <p className="mx-[40px] sm:mx-[0px] cursor-pointer">
+              <Link to="/menu">MENU </Link>
             </p>
-            <p className="mx-[40px] sm:mx-[0px] hover:animate-bounce cursor-pointer">
-              AWARDS
+            <p className="mx-[40px] sm:mx-[0px] cursor-pointer">
+              <Link to="/specials">SPECIALS</Link>
             </p>
-            <p className="mx-[40px] sm:mx-[0px] hover:animate-bounce cursor-pointer">
-              OUR STORY
+            <p className="mx-[40px] sm:mx-[0px]  cursor-pointer">
+              <Link to="/awards">AWARDS</Link>
+            </p>
+            <p className="mx-[40px] sm:mx-[0px] cursor-pointer">
+              <Link to="/story">OUR STORY</Link>
             </p>
           </div>
         )}
