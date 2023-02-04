@@ -2,10 +2,12 @@ import React from "react";
 import LobsterFest from "../assets/LobsterFest.jpg"
 import LobsterWine from "../assets/LobsterWine.jpg"
 import LobsterFest_Secondary from "../assets/LobsterFest_Secondary.jpg"
+import Background_Image from "../assets/Background_Image.jpg"
 
 const OurStory = () => {
   return (
-    <div className="grid grid-col-1 sm:grid-cols-3 gap-4 content-center pl-5 sm:pl-[5rem] pr-5 sm:pr-[5rem]">
+    <div className="grid grid-col-1 sm:grid-cols-3 gap-4 content-center pl-5 sm:pl-[5rem] pr-5 sm:pr-[5rem]" style={{backgroundImage:`url(${Background_Image})`
+    }}>
        <img className="h-full sm:col-span-2" src={LobsterFest} alt="LobsterFest"/>
        <div className="grid gap-4">
        <img src={LobsterWine} alt="LobsterWine"/>
