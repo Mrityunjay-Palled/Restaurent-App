@@ -7,7 +7,7 @@ import Person_4 from "../assets/Person_4.jpg"
 
 const RockingLobster = () => {
   return (
-    <div className='bg-[beige] p-6 sm:p-0'>
+    <div className='bg-[beige] p-6 sm:p-0 sm:mb-[2rem] sm:mt-[1rem]'>
        <p align="center" className=' text-lg sm:text-2xl text-red-600 font-merienda
        '>SHOW US HOW YOU ROCK THE LOBSTER</p>
        <p align="center" className='font-merienda pt-1 sm:pt-2 text-sm sm:text-lg'>Tag your memories with #RedLobster</p>

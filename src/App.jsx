@@ -6,10 +6,11 @@ import Menu from "./components/Menu";
 import Awards from "./components/Awards";
 import Specials from "./components/Specials";
 import Story from "./components/story";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <>
+    <div className="min-h-[100vh] flex flex-col">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -18,7 +19,8 @@ const App = () => {
         <Route path="/specials" element={<Specials />} />
         <Route path="/story" element={<Story />} />
       </Routes>
-    </>
+      <Footer/>
+    </div>
   );
 };
 
