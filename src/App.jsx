@@ -3,7 +3,6 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import {Routes, Route } from "react-router-dom";
 import Menu from "./components/Menu";
-import Awards from "./components/Awards";
 import Specials from "./components/Specials";
 import Story from "./components/story";
 import Footer from "./components/Footer";
@@ -15,7 +14,6 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/menu" element={<Menu />} />
-        <Route path="/awards" element={<Awards />} />
         <Route path="/specials" element={<Specials />} />
         <Route path="/story" element={<Story />} />
       </Routes>

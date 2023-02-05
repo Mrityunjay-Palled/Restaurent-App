@@ -74,12 +74,6 @@ const Navbar = () => {
               className="mx-[40px] sm:mx-[0px] cursor-pointer"
               onClick={handleToggle}
             >
-              <Link to="/awards">AWARDS</Link>
-            </p>
-            <p
-              className="mx-[40px] sm:mx-[0px] cursor-pointer"
-              onClick={handleToggle}
-            >
               <Link to="/story">OUR STORY</Link>
             </p>
           </div>
@@ -95,9 +89,6 @@ const Navbar = () => {
             </p>
             <p className="mx-[40px] sm:mx-[0px] cursor-pointer">
               <Link to="/specials">SPECIALS</Link>
-            </p>
-            <p className="mx-[40px] sm:mx-[0px]  cursor-pointer">
-              <Link to="/awards">AWARDS</Link>
             </p>
             <p className="mx-[40px] sm:mx-[0px] cursor-pointer">
               <Link to="/story">OUR STORY</Link>
