@@ -40,5 +40,47 @@ export const data={
         title:"Live Maine Lobster (1.25 lb.)",
         description:"Wild-caught, fresh from the Atlantic. Prepared to order in the classic style or roasted with crab-and-seafood stuffing. Served with choice of two sides. Not available for raw purchase.",
     }
+  ],
+  Feasts:[
+    {
+        img:"https://img-ecomm-rl-prod.azureedge.net/ecomm-image/640x360/0065006M_ECF8C9A1768A50A7E053077A13ACF1CD.jpg",
+        title:"Bar Harbor Lobster Bake Family Meal",
+        description:"Petite Maine lobster tails with shrimp, bay scallops, mussels and fresh tomatoes. Served over linguini in a garlic and white wine broth. Includes 8 Cheddar Bay Biscuits®. Serves 4."
+    },
+    {
+        img:"https://img-ecomm-rl-prod.azureedge.net/ecomm-image/640x360/0065005M_ECF8BB589D65408BE053077A13ACBB7A.jpg",
+        title:"Jumbo Grilled Shrimp Platter",
+        description:"9 Jumbo Grilled Shrimp Skewers with a trio of sauces – Sweet Chili, Sesame-Soy and Cocktail. Includes one dozen Cheddar Bay Biscuits®."
+    },
+    {
+        img:"https://img-ecomm-rl-prod.azureedge.net/ecomm-image/640x360/0004946M_5C4DC64D79FCBEE1E053046613AC3E4A.jpg",
+        title:"Parrot Isle Jumbo Coconut Shrimp Platter",
+        description:"Hand-dipped, tossed in flaky coconut and fried golden brown. Served with piña colada sauce."
+    },
+    {
+        img:"https://img-ecomm-rl-prod.azureedge.net/ecomm-image/640x360/0004945M_5C4DC64D79FBBEE1E053046613AC3E4A.jpg",
+        title:"Walt's Favorite Shrimp Platter",
+        description:"Served with cocktail sauce."
+    },
+    {
+        img:"https://img-ecomm-rl-prod.azureedge.net/ecomm-image/640x360/0004963M_5C4DC64D79FDBEE1E053046613AC3E4A.jpg",
+        title:"Chicken Tenders Platter",
+        description:"Golden-fried chicken tenders. Served with honey mustard."
+    },
+    {
+        img:"https://img-ecomm-rl-prod.azureedge.net/ecomm-image/640x360/0065002M_ECF869D95A55E58EE053077A13AC8711.jpg",
+        title:"Shrimp Rangoon Platter",
+        description:"24 crispy, crab-stuffed shrimp with sweet chili sauce. Includes one dozen Cheddar Bay Biscuits®."
+    },
+    {
+        img:"https://img-ecomm-rl-prod.azureedge.net/ecomm-image/640x360/0065005M_ECF8BB589D65408BE053077A13ACBB7A.jpg",
+        title:"Jumbo Grilled Shrimp Platter",
+        description:"9 Jumbo Grilled Shrimp Skewers with a trio of sauces - Sweet Chili, Sesame-Soy and Cocktail. Includes one dozen Cheddar Bay Biscuits®."
+    },
+    {
+        img:"https://img-ecomm-rl-prod.azureedge.net/ecomm-image/640x360/0065007M_ECF8EE80E29C6961E053077A13AC74E5.jpg",
+        title:"Whole Maine Lobster Holiday Feast for Two",
+        description:"The ultimate holiday celebration feast! Live Maine Lobsters are steamed to order for you and your guests. Each meal includes Lobster Bisque, Steamed Maine Lobsters (one per person), 4 individual sides, dessert and Cheddar Bay Biscuits®."
+    }
   ]
 }
