@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="sm:flex items-center sm:w-[40%] w-full">
         {!activeMenu ? (
           <div
-            className={`sm:flex w-full justify-around text-red-600 font-merienda font-bold flex-wrap mt-[0px] h-[50vh] sm:h-[0px] sm:mt-[0px] leading-[80px] sm:leading-[0px] bg-white z-0 relative sm:opacity-100 ${
+            className={`sm:flex w-full justify-around text-red-600 font-merienda font-bold flex-wrap mt-[0px] h-[50vh] sm:h-[0px] sm:mt-[0px] leading-[80px] sm:leading-[0px] bg-white z-[1] relative sm:opacity-100 ${
               !toggleDrawer ? "-translate-x-[415px]" : "translate-x-0"
             }`}
           >

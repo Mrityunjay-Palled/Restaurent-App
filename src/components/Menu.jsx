@@ -8,6 +8,11 @@ const Menu = () => {
   const options = [
     { value: "LobsterFest", label: "NEW! Lobsterfest®" },
     { value: "Feasts", label: "Platters And Feasts" },
+    { value: "Starters", label: "Starters" },
+    { value: "Beverages", label: "Beverages" },
+    { value: "Sandwich", label: "Bowls & Sandwiches" },
+    { value: "Classics", label: "Classics" },
+    { value: "Deserts", label: "Deserts" },
   ];
   const handleChange = (event) => {
     setSelected(event.value);
@@ -39,9 +44,11 @@ const Menu = () => {
                 align="center"
                 className="text-gray-500 font-[15px] leading-[15px]"
               >
-                {item.description.length >= 190
-                  ? item.description.substring(0, 190) + "..."
-                  : item.description}
+                {item.description !== ""
+                  ? item.description.length >= 190
+                    ? item.description.substring(0, 190) + "..."
+                    : item.description
+                  : ""}
               </p>
             </div>
             <div
