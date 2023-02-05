@@ -1,19 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import Background_Image from "../assets/Background_Image.jpg";
 import _placeholder from "../assets/_placeholder.jpg";
 import { data } from "./data";
 import CustomSelect from "../Library";
-
 const Menu = () => {
-  const cardData = data.Feasts;
+  const [selected, setSelected] = useState("LobsterFest");
+  const options = [
+    { value: "LobsterFest", label: "NEW! Lobsterfest®" },
+    { value: "Feasts", label: "Platters And Feasts" },
+  ];
+  const handleChange = (event) => {
+    setSelected(event.value);
+  };
+
+  const _menu = data[selected];
   return (
     <div style={{ backgroundImage: `url(${Background_Image})` }}>
       <div className="flex items-center justify-center pt-3">
-        <CustomSelect/>
+        <CustomSelect options={options} onChange={handleChange} />
       </div>
-     
+
       <div className="grid grid-cols-1 justify-items-center sm:grid-cols-4">
-        {cardData.map((item) => (
+        {_menu.map((item) => (
           <div className="bg-white w-[20rem] h-[20rem] sm:h-[25rem] shadow-[0px_0px_10px_0px_rgba(0,0,0,0.56)] m-5">
             <img
               src={item.img === "" ? _placeholder : item.img}

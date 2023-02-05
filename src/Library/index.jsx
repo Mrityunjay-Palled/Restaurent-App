@@ -1,11 +1,11 @@
 import React from 'react'
 import Select from 'react-select'
 
-const options = [
-  { value: 'chocolate', label: 'Chocolate' },
-  { value: 'strawberry', label: 'Strawberry' },
-  { value: 'vanilla', label: 'Vanilla' }
-]
+// const options = [
+//   { value: 'chocolate', label: 'Chocolate' },
+//   { value: 'strawberry', label: 'Strawberry' },
+//   { value: 'vanilla', label: 'Vanilla' }
+// ]
 
 const customStyles = {
     control: base => ({
@@ -15,10 +15,11 @@ const customStyles = {
     })
   };
 
-const CustomSelect = () =>{
+const CustomSelect = ({onChange,options}) =>{
     return(
         <Select
          options={options}
+         onChange={onChange}
          defaultValue={options[0]}
          theme={(theme) => ({
             ...theme,
