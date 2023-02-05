@@ -62,6 +62,34 @@ const Menu = () => {
           </div>
         ))}
       </div>
+
+      <hr className="border-[0.5px] border-gray-500 opacity-10" />
+
+      <div className="text-gray-500 p-5">
+        <p className="text-sm pb-2">
+          Nutritional content includes fixed sides, condiments and dipping
+          sauces but not side choices, which are listed separately.
+        </p>
+        <p className="text-sm pb-2">
+          A 2,000 calorie-per-day diet is used for general nutritional advice,
+          but calorie needs vary.
+        </p>
+        <div className="pb-2">
+          <p>
+            ** MAY BE COOKED TO ORDER. CONTAINS (OR MAY CONTAIN) RAW OR
+            UNDERCOOKED INGREDIENTS. CONSUMING RAW OR UNDERCOOKED MEATS,
+          </p>
+          <p>
+            POULTRY, SEAFOOD, SHELLFISH OR EGGS MAY INCREASE YOUR RISK OF
+            FOODBORNE ILLNESS, ESPECIALLY IF YOU HAVE CERTAIN MEDICAL
+          </p>
+          <p>CONDITIONS.</p>
+        </div>
+        <p className="text-sm">
+          Due to supply disruptions, item availability and recipes may vary.
+          Thank you for understanding.
+        </p>
+      </div>
     </div>
   );
 };
