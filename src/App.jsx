@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import {Routes, Route } from "react-router-dom";
 import Menu from "./components/Menu";
 import Specials from "./components/Specials";
-import Story from "./components/story";
+import Story from "./components/Story";
 import Footer from "./components/Footer";
 
 const App = () => {
